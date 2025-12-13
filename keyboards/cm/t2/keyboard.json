@@ -1,0 +1,21 @@
+{
+  "keyboard_name": "1x4_keypad_rgbmatrix",
+  "usb": {
+    "vid": "0xFEED",
+    "pid": "0x6060",
+    "device_version": "0x0001"
+  },
+  "matrix": {
+    "rows": 1,
+    "cols": 4,
+    "row_pins": ["D0"],
+    "col_pins": ["D2", "D3", "C6", "D4"],
+    "diodes": {
+      "direction": "COL2ROW"
+    }
+  },
+  "ws2812": {
+    "pin": "D1",
+    "num_leds": 4
+  }
+}
